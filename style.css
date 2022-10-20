@@ -1,0 +1,56 @@
+body{
+    background-color: #7BDAF3;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.page{
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    background-color: #ECFAF5;
+    overflow: hidden;
+
+}
+
+.logos{
+    background-color: #9EC862;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.logo{
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+
+textarea{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.add{
+    height: fit-content;
+    background-color: #9EC862;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
